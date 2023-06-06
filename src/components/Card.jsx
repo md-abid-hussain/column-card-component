@@ -1,8 +1,10 @@
-import React from 'react'
-
-const Card = () => {
+const Card = ({ image, title, desc }) => {
     return (
-        <div>Card</div>
+        <section>
+            <image src={image} />
+            <h2>{title}</h2>
+            <p>{desc}</p>
+        </section>
     )
 }
 
