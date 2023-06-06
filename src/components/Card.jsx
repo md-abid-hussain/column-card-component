@@ -1,7 +1,7 @@
 const Card = ({ image, title, desc }) => {
     return (
         <section>
-            <image src={image} />
+            <img src={image} />
             <h2>{title}</h2>
             <p>{desc}</p>
         </section>
