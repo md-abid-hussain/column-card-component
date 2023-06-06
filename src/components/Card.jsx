@@ -4,6 +4,7 @@ const Card = ({ image, title, desc }) => {
             <img src={image} />
             <h2>{title}</h2>
             <p>{desc}</p>
+            <a href="#">Learn More</a>
         </section>
     )
 }
