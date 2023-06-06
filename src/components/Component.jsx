@@ -3,7 +3,7 @@ import Card from './Card'
 
 const Component = () => {
     return (
-        <section>
+        <section className='flex'>
             {data.map(ele => (<Card image={ele.image} title={ele.title} desc={ele.desc} key={ele.title} />))}
         </section>
     )
