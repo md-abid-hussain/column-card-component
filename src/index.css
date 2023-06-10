@@ -13,4 +13,30 @@
   h2 {
     font-family: "Big Shoulders Display", cursive;
   }
+
+  .sedans {
+    border-radius: 0.5rem 0.5rem 0 0;
+    background-color: #e38826;
+    color: #e38826;
+  }
+
+  .suvs {
+    background-color: #006970;
+    color: #006970;
+  }
+
+  .luxury {
+    border-radius: 0 0 0.5rem 0.5rem;
+    background-color: #004241;
+    color: #004241;
+  }
+
+  @media (min-width: 1024px) {
+    .sedans {
+      border-radius: 0.5rem 0 0 0.5rem;
+    }
+    .luxury {
+      border-radius: 0 0.5rem 0.5rem 0;
+    }
+  }
 }
