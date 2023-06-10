@@ -1,4 +1,4 @@
-const Card = ({ image, title, desc, theme }) => {
+const Card = ({ image, title, desc }) => {
 
     return (
         <section
