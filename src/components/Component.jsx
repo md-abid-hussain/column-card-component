@@ -4,7 +4,7 @@ import Card from './Card'
 const Component = () => {
 
     return (
-        <section className='flex max-w-[920px]'>
+        <section className='flex flex-col max-w-[327px] lg:flex-row lg:max-w-[981px]'>
             {
                 data.map(ele => (<Card image={ele.image}
                     title={ele.title}
