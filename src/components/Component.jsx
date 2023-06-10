@@ -5,7 +5,15 @@ const Component = () => {
 
     return (
         <section className='flex max-w-[920px]'>
-            {data.map(ele => (<Card image={ele.image} title={ele.title} desc={ele.desc} key={ele.title} theme={ele.theme} />))}
+            {
+                data.map(ele => (<Card image={ele.image}
+                    title={ele.title}
+                    desc={ele.desc}
+                    key={ele.title}
+                    theme={ele.theme}
+                />)
+                )
+            }
         </section>
     )
 }
