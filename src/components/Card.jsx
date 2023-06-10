@@ -6,7 +6,7 @@ const Card = ({ image, title, desc }) => {
              ${title === 'sedans' ? 'sedans' : title === 'suvs' ? 'suvs' : title === 'luxury' ? 'luxury' : ''}`
             }
         >
-            <img src={image} />
+            <img src={image} alt={title} />
             <h2 className="uppercase text-[36px] mb-[36px] mt-[40px] text-[#f2f2f2]">{title}</h2>
             <p className="mb-[86px] text-[#ffffffbf] text-[17px]">{desc}</p>
             <a href="#"
